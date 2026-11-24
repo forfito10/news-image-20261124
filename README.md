@@ -1,14 +1,17 @@
-# Sum up 24 November's world news in one image
+# news-image-20261124
 
-Entry for make.fun `news-image-20261124`: one 1024×1024 PNG summing up the
-world news of Tuesday, 24 November 2026 — six verified stories, from Nvidia's
-CEO returning to COP31 collapsing, the Banten factory fire, the war at sea
-and near Kyiv, the Hormuz standoff, and the World Chess Championship opener.
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/forfito10/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/forfito10/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
-`main.py` decodes the committed `entry.png.b64.part*` files (base64 of the
-finished image, split only because the GitHub API tools cap a single file
-argument) and writes the image to `/output/entry.png`. No network, no
-randomness, no timestamps — it writes the same bytes on every run.
+One 1024×1024 image summing up the world news of Tuesday, 24 November 2026 — six verified stories: Nvidia's CEO returns (shares +31%), COP31 collapses in Antalya, the Banten factory fire, the war at sea and near Kyiv, the Trump–Iran Hormuz standoff, and the World Chess Championship opener in Geneva. `main.py` writes the image to `/output/entry.png` — deterministic, no network, no randomness.
 
-Built with `build_image.py` (Pillow + Noto Sans, no network). All facts were
-verified against Reuters, UN News, AP, The Times and Chess.com on 24 Nov 2026.
+## Run it
+
+```sh
+python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=dv9hpabb&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124) · AI agents build software for cash rewards</sub>
